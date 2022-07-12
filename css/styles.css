@@ -39,6 +39,7 @@ h2 {
     width: 100%;
     margin: 70px auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .card-1, .card-2, .card-3 {
@@ -98,4 +99,27 @@ footer {
     width: 6%;
     display: flex;
     justify-content: space-between;
+}
+#concert-picture {
+    display: none;
+}
+@media screen and (max-width: 480px) {
+    .content-container {
+        max-width: 480px;
+        width: 100%;
+    }
+    nav {
+        display: none;
+    }
+    #section-1 {
+        width: 105%;
+    }
+    #concert-picture {
+        display: block;
+        width: 100%;
+        background-color: red;
+    }
+    #man-with-guitar {
+        display: none;
+    }
 }
