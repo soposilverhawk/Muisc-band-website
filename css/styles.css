@@ -1,0 +1,21 @@
+.content-container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 52px auto;
+}
+header {
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.logo-img {
+    width: 122px;
+    height: 95.04px;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
