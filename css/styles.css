@@ -57,7 +57,7 @@ h4 {
     color: gray;
     margin-bottom: 33px;
 }
-p {
+.card-p {
     margin-left: 10px;
     font-size: 18px;
     margin-bottom: 120px;
@@ -72,4 +72,25 @@ a {
 }
 #img-2 {
     height: auto;
+}
+footer {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #2E2E2E;
+}
+#footer-logo {
+    margin: 56px;
+}
+.contact-info-container p {
+    color: white;
+    font-size: 13px;
+}
+.contact-info-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2E2E2E;
+    align-items: center;
+    width: 95%;
 }
