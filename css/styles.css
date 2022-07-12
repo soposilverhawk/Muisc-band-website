@@ -18,6 +18,7 @@ ul {
     display: flex;
     justify-content: space-between;
     width: 600px;
+    font-size: 20px;
 }
 #section-1 {
     margin: 60px auto;
@@ -25,4 +26,50 @@ ul {
 }
 #man-with-guitar {
     width: 100%;
+}
+#section-2 {
+    width: 90%;
+    margin: 138px auto;
+}
+h2 {
+    font-size: 40px;
+    color: gray;
+}
+.cards {
+    width: 100%;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.card-1, .card-2, .card-3 {
+    box-shadow: 2px 2px #707070;
+    width: 483px;
+    height: 563px;
+}
+.second-section-images, .third-section-images{
+    width: 100%;
+    margin-bottom: 20px;
+}
+h4 {
+    margin-left: 10px;
+   
+    font-size: 30px;
+    color: gray;
+    margin-bottom: 33px;
+}
+p {
+    margin-left: 10px;
+    font-size: 18px;
+    margin-bottom: 120px;
+}
+a {
+    font-size: 24px;
+    margin-left: 85%;
+}
+#section-3 {
+    width: 90%;
+    margin: 130px auto;
+}
+#img-2 {
+    height: auto;
 }
