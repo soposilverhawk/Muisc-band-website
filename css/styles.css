@@ -17,5 +17,12 @@ header {
 ul {
     display: flex;
     justify-content: space-between;
-    width: 800px;
+    width: 600px;
+}
+#section-1 {
+    margin: 60px auto;
+    width: 90%;
+}
+#man-with-guitar {
+    width: 100%;
 }
